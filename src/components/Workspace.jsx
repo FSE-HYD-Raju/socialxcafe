@@ -22,6 +22,7 @@ export default function Workspace() {
         whileInView={{ scale: 1, opacity: 1 }}
         whileHover={{ scale: 1.05 }}
         transition={{ duration: 0.5, delay: 0.4 }}
+        onClick={() => window.open("", "_blank")}
       >
         Reserve Now
       </motion.button>

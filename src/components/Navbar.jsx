@@ -2,13 +2,13 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const navItems = [
-  { name: "Home", id: "hero" },
+  { name: "Home", id: "home" },
   { name: "About", id: "about" },
-  { name: "Cafe", id: "features" },
-  { name: "Snooker", id: "features" },
-  { name: "Library", id: "features" },
+  { name: "Cafe", id: "cafe" },
+  { name: "Snooker", id: "cafe" },
+  { name: "Library", id: "cafe" },
   { name: "Workspace", id: "workspace" },
-  { name: "Events", id: "features" },
+  { name: "Events", id: "events" },
   { name: "Contact", id: "footer" },
 ];
 
